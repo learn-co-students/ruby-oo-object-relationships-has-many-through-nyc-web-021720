@@ -22,11 +22,11 @@ class Waiter
     
     
     def best_tipper 
-        binding.pry 
+        
         meals.max_by{|meal|meal.tip}.customer 
         #meals.max_by do |meal|
-            meal.tip
-        end.customer  
+            #meal.tip
+        #end.customer  
         #return customer associated to meal with biggest tip 
         
     
